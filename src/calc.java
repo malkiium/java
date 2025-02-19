@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class calc {
     public static void main(String[] args) {
         // declaring the scanner object
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in); System.out.println("what is your first number ? : "); int firstNum = input.nextInt(); System.out.println("what is your second number ? : "); int secNum = input.nextInt();
 
         // asking what type of operation
