@@ -14,7 +14,6 @@ public class factorial {
             i++;
         }
         endMillis = System.currentTimeMillis();
-        System.out.println((endMillis-nwMillis));
-
+        System.out.println("\n" + (endMillis-nwMillis) + " miliseconds");
     }
 }
