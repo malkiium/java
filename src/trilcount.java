@@ -1,7 +1,7 @@
 public class trilcount {
     public static void main(String[] args) {
         long nwMillis = System.currentTimeMillis();
-        long endMillis = 0;
+        long endMillis;
 
         for(long i=1; i<=1_000_000_000L; i++) {
             if(i%1_000_000==0) {
