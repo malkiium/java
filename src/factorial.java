@@ -4,7 +4,7 @@ public class factorial {
         long nwMillis = System.currentTimeMillis();
         long i = 1;
         long y = 1;
-        long endMillis = 0;
+        long endMillis;
 
         System.out.println("\n\n\n" + Long.MAX_VALUE + "\n");
 
