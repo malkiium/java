@@ -1,7 +1,7 @@
 import java.io.File;
 
 public class LargeFileScanner {
-    private static final long SIZE_LIMIT = 30L * 1024 * 1024 * 1024; // 50GB in bytes
+    private static final long SIZE_LIMIT = 10L * 1024 * 1024 * 1024; // 50GB in bytes
 
     public static void main(String[] args) {
         String startPath = "C:\\"; // Change this to your starting directory
