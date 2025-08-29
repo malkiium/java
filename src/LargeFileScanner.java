@@ -4,7 +4,7 @@ public class LargeFileScanner {
     private static final long SIZE_LIMIT = 10L * 1024 * 1024 * 1024; // 50GB in bytes
 
     public static void main(String[] args) {
-        String startPath = "C:\\"; // Change this to your starting directory
+        String startPath = "D:\\"; // Change this to your starting directory
         File root = new File(startPath);
         
         if (root.exists() && root.isDirectory()) {
