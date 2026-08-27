@@ -1,6 +1,6 @@
 import java.io.File;
 
-public class LargeFileScanner {
+public class LargeFileScannerTool {
     private static final long SIZE_LIMIT = 10L * 1024 * 1024 * 1024; // 50GB in bytes
 
     public static void main(String[] args) {
